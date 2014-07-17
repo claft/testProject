@@ -12,5 +12,11 @@ namespace MyUnityTest
 			Fizzbuzz fb = new Fizzbuzz (test);
 			Assert.AreEqual (fb.Ret, test);
 		}
+
+		[Test]
+		public void exceptionTest()
+		{
+			throw new Exception();
+		}
 	}
 }
