@@ -1,0 +1,15 @@
+Temp/*
+Library/*
+Build/*
+!Library/*.asset
+!Library/AssetImportState
+!Library/BuildPlayer.prefs
+!Library/ScriptMapper
+!Library/expandedItems
+!Library/guidmapper
+!Library/unity default resources
+!Library/unity editor resources
+!Library/metadata/
+
+*.pidb
+*.userprefs
