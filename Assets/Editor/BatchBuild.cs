@@ -1,4 +1,8 @@
-﻿public class BatchBuild
+﻿using UnityEngine;
+using UnityEditor;
+using System.Collections;
+
+public class BatchBuild
 {
 		[UnityEditor.MenuItem("Tools/Build Project AllScene Android")]
 		public static void BuildProjectAllSceneAndroid ()
