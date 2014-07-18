@@ -16,10 +16,16 @@ public class BatchBuild
 				}	
 				PlayerSettings.bundleIdentifier = "jp.co.hoge.hoge";
 				PlayerSettings.statusBarHidden = true;
-				BuildPipeline.BuildPlayer (allScene,
+				String errmsg = BuildPipeline.BuildPlayer (allScene,
 	                          "hoge.apk",
 	                          BuildTarget.Android,
 	                          BuildOptions.None
 				);
+		        
+				if (string.IsNullOrEmpty (errorMsg)) {
+						Debug.Log ("Build Android succeeded");
+				} else {
+						Debug.Log ("Build Android failed");
+				}
 		}
 }
