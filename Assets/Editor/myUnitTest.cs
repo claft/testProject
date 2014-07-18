@@ -13,10 +13,10 @@ namespace MyUnityTest
 			Assert.AreEqual (fb.Ret, test);
 		}
 
-		[Test]
-		public void exceptionTest()
-		{
-			throw new Exception();
-		}
+//		[Test]
+//		public void exceptionTest()
+//		{
+//			throw new Exception();
+//		}
 	}
 }
