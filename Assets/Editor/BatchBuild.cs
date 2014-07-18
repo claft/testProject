@@ -22,7 +22,7 @@ public class BatchBuild
 	                          BuildOptions.None
 				);
 		        
-				if (string.IsNullOrEmpty (errorMsg)) {
+				if (string.IsNullOrEmpty (errmsg)) {
 						Debug.Log ("Build Android succeeded");
 				} else {
 						Debug.Log ("Build Android failed");
