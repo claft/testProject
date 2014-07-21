@@ -4,6 +4,7 @@ using System.Collections;
 
 public class BatchBuild
 {
+	/*
 		[UnityEditor.MenuItem("Tools/Build Project AllScene Android")]
 		public static void BuildProjectAllSceneAndroid ()
 		{
@@ -28,4 +29,5 @@ public class BatchBuild
 						Debug.Log ("Build Android failed");
 				}
 		}
+	ß*/
 }
